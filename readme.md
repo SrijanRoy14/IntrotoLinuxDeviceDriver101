@@ -1,0 +1,3 @@
+- Created a basic dynamically loadable Linux device driver that performs basic read and write operations using the `cat` and `echo` commands.
+- Used the `proc/` file system to create a virtual file for reading and writing, employing the `proc_dir_entry` function to create the file and the `read_proc` and `write_proc` member functions of the `proc_ops` class.
+- A big thanks to **Embedded Systems, inPyjama**, **Piyush Itankar**, and **Mahmad Bharmal** for providing this beginner-friendly course and giving us a peek into the vast world of Driver Development. Looking forward to more courses on this topic.
