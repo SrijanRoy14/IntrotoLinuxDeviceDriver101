@@ -1,4 +1,4 @@
-obj-m +=ldd.o
+obj-m +=read_write.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD)
