@@ -52,7 +52,7 @@ static int srijan_module_init(void)
 	proc_entry=proc_create("read_write_driver",0666,NULL,&driver_proc_ops); //the proc create function creates the file for us in the proc file system.
 	return 0;
 }
-static void srijan_ module_exit(void)
+static void srijan_module_exit(void)
 {
 	printk("Module exit: exit\n");
 	proc_remove(proc_entry); //remove the file we created.
